@@ -13,7 +13,7 @@ type ModalProviderProps = {
 type ModalContextType = {
   openModal: (component: ReactNode) => void;
   closeModal: () => void;
-  modalComponent: ReactNode | null;
+  modalComponent?: ReactNode;
   components: componentsTypes[];
 };
 
