@@ -4,11 +4,11 @@ import style from './Ok.module.scss'
 export const Ok = () => {
 	const { closeModal } = useModal()
 
-	const handleYesClick = () => {
+	const handleConfirmClick = () => {
 		console.log('Yes')
 		closeModal()
 	}
-	const handleNoClick = () => {
+	const handleRejectClick = () => {
 		console.log('No')
 		closeModal()
 	}
@@ -19,12 +19,12 @@ export const Ok = () => {
 			<div className={style.modal__options}>
 				<div
 					className={[style.modal__btn, style.modal__green].join(' ')}
-					onClick={handleYesClick}>
+					onClick={handleConfirmClick}>
 					Yes
 				</div>
 				<div
 					className={[style.modal__btn, style.modal__red].join(' ')}
-					onClick={handleNoClick}>
+					onClick={handleRejectClick}>
 					No
 				</div>
 			</div>
