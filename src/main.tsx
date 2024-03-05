@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
 		<ModalProvider components={modalComponents}>
 			<App />
-			<Modal /> {/* Компонент модалки */}
+			<Modal />
 		</ModalProvider>
 	</React.StrictMode>
 )

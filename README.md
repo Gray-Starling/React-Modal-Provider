@@ -1,6 +1,6 @@
 ## Modal window with provider
 
-####1. Для начала необходимо обернуть всё приложение в провайдер
+#### 1. Для начала необходимо обернуть всё приложение в провайдер
 
 ```javascript
 ReactDOM.createRoot(document.getElementById('root')!).render(
