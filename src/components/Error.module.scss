@@ -1,0 +1,15 @@
+.modal {
+	&__container {
+		width: 300px;
+		height: 300px;
+		border-radius: 10px;
+		background-color: #fefefe;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		& > h3 {
+			color: red;
+		}
+	}
+}
