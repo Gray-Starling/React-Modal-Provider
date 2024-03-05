@@ -1,6 +1,6 @@
 import React from 'react'
 import { useModal } from '../ModalProvider/ModalProvider'
-import style from './Modal.style.module.scss'
+import style from './Modal.module.scss'
 
 const Modal: React.FC = () => {
 	const { modalComponent, closeModal } = useModal()
